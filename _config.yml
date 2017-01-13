@@ -4,7 +4,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
-seo_description: A navigational guide for clinical practice management
+seo_description: A navigational guide for innovative, clinical practice management
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://practicesherpa.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 logo: images/sherpas-dark-1650.svg
@@ -15,9 +15,13 @@ google_analytics:
 # Build settings
 markdown: kramdown
 gems:
+  - jekyll-compose
   - jekyll-feed
+  - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-github-metadata
+  - jekyll-assets
+  - jekyll-paginate
 
 exclude:
   - Gemfile
