@@ -1,0 +1,12 @@
+<section id="sitenav" class="wrapper">
+  <nav id="bottomnav" class="container">
+    <ul class="page-links nav-right">
+      <!--<li><a href="/social" {% if page.url == "/social.html" %}class="active"{% endif %}>Chat</a></li>-->
+      <li><a href="/blog" {% if page.url == "/blog.html" %}class="active"{% endif %}>Blog</a></li>
+      <li><a href="/podcasts" {% if page.url == "/podcasts.html" %}class="active"{% endif %}>Podcasts</a></li>
+      <li><a href="/resources" {% if page.url == "/resources.html" %}class="active"{% endif %}>Resources</a></li>
+      <li><amp-img {% if page.url == "/" %}class="active"{% endif %} src="{{ site.url }}/assets/images/icons/home-white-24.svg" alt="Home" height="24" width="24"></amp-img>
+        <a href="/" {% if page.url == "/" %}class="active"{% endif %}>Home</a></li>
+    </ul>
+    </nav>
+  </section>

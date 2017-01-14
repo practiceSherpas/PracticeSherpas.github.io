@@ -1,0 +1,60 @@
+// LAYOUT
+.cf
+  @include clearfix
+
+.wrapper
+  @include fill-parent
+
+.container
+  @include outer-container
+  //max-width: $local-max-width
+
+.post-template
+  max-width: $local-max-width
+
+section
+  padding: 1em 0 4em
+  font-size: 1rem
+  background: $flat-white
+  text-align: center
+  margin: 0 auto
+
+  .section-header, .section-teaser
+    text-align: left
+    font:
+      size: $rs * 0.7
+      family: $font-sans
+      weight: 900
+      style: normal
+    text-transform: uppercase
+    letter-spacing: 0.1em
+    padding: 0 0 0 0.4rem
+
+  .section-header
+    border-left: $size5 solid $primary-light
+    margin: 1rem 0 2rem 1rem
+
+  .section-teaser
+    color: $grey-meta
+    letter-spacing: 0.12em
+    font-size: 0.8rem
+    //line-height: 1.2
+    margin: 0 12vw 0.5em
+
+main.wrapper
+  display: block
+  margin: 0 auto 10rem
+  padding: 0 0 1rem
+
+main.home
+  line-height: 1.5
+  font:
+    family: $font-Lato
+    weight: 200
+
+article, .pagination
+  @include outer-container
+  padding: 1.5em 1em
+
+@import "home"
+@import "post"
