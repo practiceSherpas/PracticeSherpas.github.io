@@ -19,7 +19,14 @@ ruby RUBY_VERSION
 gem "github-pages", group: :jekyll_plugins
 
 # If you have any plugins, put them here!
+
 group :jekyll_plugins do
    gem "jekyll-feed", "~> 0.6"
+   gem "jekyll-paginate"
+   gem "jekyll-compose"
+   gem "jekyll-sitemap"
    gem "jekyll-seo-tag"
+   gem "jekyll-assets"
+   gem "autoprefixer-rails"
+   gem "neat"
 end

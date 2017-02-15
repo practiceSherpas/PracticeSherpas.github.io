@@ -10,12 +10,12 @@ $size50: 5* $size10
 $local-max-width: 45em
 
 $font-serif: Georgia,Cambria,"Times New Roman",Times,"Lora",serif
-$font-playfair: "Playfair Display",Georgia,Cambria,"Times New Roman",Times,"Lora",serif
 $font-sans: "Helvetica Neue","Open Sans",Arial,Helvetica,sans-serif
-$font-Lato: "Lato",$font-sans
+$font-Lato: "Lato",$font-stack-system
 $font-SSS: 'Source Sans Pro',$font-stack-system
-$font-Adamina: 'Adamina',$font-serif
-$font-Questrial: 'Questrial',$font-sans
+$font-karla: 'Karla', $font-sans
+$font-mont: 'Montserrat', $font-sans
+$font-Questrial: 'Questrial',$font-stack-system
 
 
 @mixin respond-to($breakpoint)
@@ -30,10 +30,15 @@ $font-Questrial: 'Questrial',$font-sans
   font-size: 100%
 
 body
-  background:
-    color: $flat-white
-  font
-    family: $font-SSS
+  background: radial-gradient(circle, $flat-white, #eeeeee)
+  //background-color: $flat-white
+  background-image: url(assets/images/sherpa-caps.svg)
+  background-size: 75%
+  background-position: center
+  background-repeat: no-repeat
+
+  font:
+    family: $font-karla
     weight: 300
   color: $primary-dark
   margin: 0 auto

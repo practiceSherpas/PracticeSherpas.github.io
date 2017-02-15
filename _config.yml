@@ -1,22 +1,19 @@
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-
 title: Your Practice Sherpa
 email: holler(at)sherpas.io
 description: Your navigational aid to managing a 21st century clinical practice
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://practicesherpa.github.io" # the base hostname & protocol for your site
+baseurl: ""
+url: "https://practicesherpa.github.io"
+bg-logo: "/assets/images/sherpas-grey.svg"
+logo: "/assets/images/sherpa-caps.svg"
 twitter_username: Practice_Sherpa
 github_username:  practicesherpa
 
 # Build settings
 markdown: kramdown
 # theme: minima
+host: localhost
+port: 4000
+
 gems:
   - jekyll-feed
   - jekyll-seo-tag

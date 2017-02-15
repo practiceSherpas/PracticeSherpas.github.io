@@ -4,28 +4,26 @@
   z-index: 1000
   bottom: 0
   text-align: center
-  height: 3.5em
   margin: 0
   padding: 0
-  background: $bluegrey-800
+  background: $bluegrey-900
   box-shadow: 0 -0.125em 0.3125em rgba(0,0,0,.26)
   color: white
 
   #bottomnav
-    //@include fill-parent
     @include outer-container
     max-width: 48em
     margin: 0 auto
 
     ul
       margin: 0
-      padding: 0
+      //padding: 0
       display: block
-      position: absolute
+      //position: absolute
       //top: 10px
       bottom: 0.5em
       font:
-        family: $font-SSS
+        family: $font-mont
         weight: 400
         style: normal
         //size: 0.7em
@@ -36,7 +34,6 @@
       @include media(640px)
         font-size: 1.5vw
 
-
     .nav-right
       right: $rs * 0
 
@@ -46,9 +43,13 @@
     ul, li
       list-style-type: none
     li
-      padding: 0
+      margin: 0
+      padding: 0.2em 0.4em 0
       display: inline-block
       letter-spacing: 0.04em
+      //height: 1.6em
+      amp-img
+        height: 3rem
       a
         display: block
         text-decoration: none

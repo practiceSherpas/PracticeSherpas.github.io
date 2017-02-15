@@ -1,7 +1,7 @@
 ---
 layout: post
-title: AMP Image Gallery
-featured-image:  "assets/images/author.png"
+title: Demo Post
+featured-image:  "assets/images/sherpas-dark-1024.svg"
 published:  false
 youtube:
 category:
