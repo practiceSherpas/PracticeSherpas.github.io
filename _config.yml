@@ -11,12 +11,42 @@ github_username:  practicesherpa
 # Build settings
 markdown: kramdown
 # theme: minima
-host: localhost
-port: 4000
+
+
+# Gemfile, Gemfile.lock - The Gemfile and Gemfile.lock files are used by Bundler to keep track of the required gems and gem versions you need to build your Jekyll site.
+
+sass:
+  sass_dir:  _sass
+  style:  compressed
 
 gems:
   - jekyll-feed
+  - jekyll-admin
+  - jekyll-paginate
+  - jekyll-compose
+  - jekyll-archives
   - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-livereload
+  - jekyll-assets
+  - autoprefixer-rails
+  - neat
+
 exclude:
+  - README.md
+  - LICENSE
+  - readme.md
+  - bundle
+  - src
+  - CNAME
+  - google*.html
   - Gemfile
   - Gemfile.lock
+  - bower.json
+  - package.json
+  - script
+  - scss
+  - media
+  - ".bundle"
+  - vendor
+  - node_modules

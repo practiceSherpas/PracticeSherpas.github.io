@@ -7,7 +7,7 @@ featured-image-width: 630
 featured-image-height: 748
 youtube:
 #author_image: "{{ site.url }}{{ site.author_image }}"
-published: true
+published: false
 ---
 
 <amp-img width="{{page.featured-image-width}}" height="{{page.featured-image-height}}" layout="responsive" src="{{page.featured-image}}"></amp-img>

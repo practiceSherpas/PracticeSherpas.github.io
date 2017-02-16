@@ -4,7 +4,7 @@ title: Demo Post
 featured-image:  "assets/images/sherpas-dark-1024.svg"
 published:  false
 youtube:
-category:
+categories:
   - AMP Example
 ---
 
