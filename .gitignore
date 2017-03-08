@@ -10,6 +10,13 @@ google*.html
 
 assets/podcast
 Gemfile
+/_sass
+# _drafts
+# _includes
+# _layouts
+# references
+# resources
+# dev
 
 
 ### Jekyll ###

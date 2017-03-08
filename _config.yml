@@ -7,11 +7,12 @@ bg-logo: "/assets/images/sherpas-grey.svg"
 logo: "/assets/images/sherpa-caps.svg"
 twitter_username: Practice_Sherpa
 github_username:  practicesherpa
+link-soundcloud: https://soundcloud.com/practice-sherpa
 
 # Build settings
 markdown: kramdown
 # theme: minima
-
+permalink: /:year/:month–:day–:title/
 
 # Gemfile, Gemfile.lock - The Gemfile and Gemfile.lock files are used by Bundler to keep track of the required gems and gem versions you need to build your Jekyll site.
 
@@ -50,3 +51,4 @@ exclude:
   - ".bundle"
   - vendor
   - node_modules
+  - assets/podcast
