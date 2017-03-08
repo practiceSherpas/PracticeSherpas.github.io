@@ -8,7 +8,7 @@ tmp/
 /spec/examples.txt
 google*.html
 
-assets/podcast
+/assets/podcast
 Gemfile
 /_sass
 /_sass/.
